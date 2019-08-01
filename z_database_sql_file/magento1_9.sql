@@ -22,12 +22,12 @@ CREATE TABLE `adminnotification_inbox` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Adminnotification Inbox';
 
 INSERT INTO `adminnotification_inbox` (`notification_id`, `severity`, `date_added`, `title`, `description`, `url`, `is_read`, `is_remove`) VALUES
-(1,	1,	'2019-03-01 14:49:27',	'Action required: Update Authorize.Net Direct Post from MD5 to SHA-512 – 3/1/2019',	'Magento\'s implementation of the Authorize.Net Direct Post payment method uses MD5 based hash, and on March 14, 2019 Authorize.net will stop supporting MD5 based hash usage. This will result in Magento merchants not being able to process payments using Authorize.Net Direct Post. To avoid disruption and to continue processing payments, merchants need to apply a patch provided by Magento and add a Signature Key (SHA-512) in the Magento Admin configuration settings. For information on applying this patch please see the Magento Help Center.\n\nhttps://support.magento.com/hc/en-us/articles/360024368392',	'https://support.magento.com/hc/en-us/articles/360024368392',	0,	0),
-(2,	1,	'2019-03-26 12:35:45',	'Magento Open Source 1.9.4.1 released with important security enhancements – 3/26/2019',	'The latest release of Magento Open Source 1 delivers important security enhancements. With these important updates we strongly recommend that you upgrade to ensure your sites maintain the highest level of security. You can review the release notes for more information about these enhancements. For more information about security updates included in this version of Magento please see our Security Center: https://magento.com/security/',	'https://devdocs.magento.com/guides/m1x/ce19-ee114/ce1.9_release-notes.html',	0,	0),
-(3,	4,	'2019-06-24 09:14:20',	'Success on Tap: Beer Hawk\'s upgrade to Magento Commerce 2',	'Read how this customer achieved astronomical eCommerce growth and successfully rode the wave of popularity for craft beer since their upgrade from Magento 1 Open Source to Magento Commerce 2. Case study:  http://bit.ly/2WTWYyO',	'http://bit.ly/2WTWYyO',	0,	0),
-(4,	1,	'2019-06-25 10:38:15',	'Important Security and Performance Updates Released in Magento 2.3.2  ',	'The latest releases of Magento include important security enhancements, along with performance and productivity improvements. We strongly recommend that you upgrade to ensure your sites maintain the highest level of security. You can review the release notes for more information about all of the enhancements and information on security updates included in these versions of Magento at our Security Center: https://magento.com/security/',	'https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html',	0,	0),
-(5,	4,	'2019-07-08 09:42:19',	'Shoe retailer Loake saw a 45% increase in conversion rate after they migrated to Magento Commerce 2. Let us analyze your site now.',	'After migrating to Magento Commerce 2, Shoe retailer Loake increased their conversion rate by 45%. You can find out more about your own opportunities to evolve your eCommerce strategy with a free site assessment from our expert team.  And with Magento 1 sunsetting soon, there’s no better time to evolve your eCommerce strategy. Learn more: http://bit.ly/2KThop8',	'http://bit.ly/2KThop8',	0,	0),
-(6,	4,	'2019-07-18 14:18:31',	'Free Site Assessment to Drive Conversion',	'Let our expert team evaluate your site and identify specific areas for improvements. Many customers have seen their conversions improve by as much as 35%.  Magento Commerce 2 is here, and there’s no better time to evolve your eCommerce strategy. Learn more:http://bit.ly/30EK2Pr',	'http://bit.ly/30EK2Pr',	0,	0);
+(1,	1,	'2019-03-01 14:49:27',	'Action required: Update Authorize.Net Direct Post from MD5 to SHA-512 – 3/1/2019',	'Magento\'s implementation of the Authorize.Net Direct Post payment method uses MD5 based hash, and on March 14, 2019 Authorize.net will stop supporting MD5 based hash usage. This will result in Magento merchants not being able to process payments using Authorize.Net Direct Post. To avoid disruption and to continue processing payments, merchants need to apply a patch provided by Magento and add a Signature Key (SHA-512) in the Magento Admin configuration settings. For information on applying this patch please see the Magento Help Center.\n\nhttps://support.magento.com/hc/en-us/articles/360024368392',	'https://support.magento.com/hc/en-us/articles/360024368392',	0,	1),
+(2,	1,	'2019-03-26 12:35:45',	'Magento Open Source 1.9.4.1 released with important security enhancements – 3/26/2019',	'The latest release of Magento Open Source 1 delivers important security enhancements. With these important updates we strongly recommend that you upgrade to ensure your sites maintain the highest level of security. You can review the release notes for more information about these enhancements. For more information about security updates included in this version of Magento please see our Security Center: https://magento.com/security/',	'https://devdocs.magento.com/guides/m1x/ce19-ee114/ce1.9_release-notes.html',	0,	1),
+(3,	4,	'2019-06-24 09:14:20',	'Success on Tap: Beer Hawk\'s upgrade to Magento Commerce 2',	'Read how this customer achieved astronomical eCommerce growth and successfully rode the wave of popularity for craft beer since their upgrade from Magento 1 Open Source to Magento Commerce 2. Case study:  http://bit.ly/2WTWYyO',	'http://bit.ly/2WTWYyO',	0,	1),
+(4,	1,	'2019-06-25 10:38:15',	'Important Security and Performance Updates Released in Magento 2.3.2  ',	'The latest releases of Magento include important security enhancements, along with performance and productivity improvements. We strongly recommend that you upgrade to ensure your sites maintain the highest level of security. You can review the release notes for more information about all of the enhancements and information on security updates included in these versions of Magento at our Security Center: https://magento.com/security/',	'https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html',	0,	1),
+(5,	4,	'2019-07-08 09:42:19',	'Shoe retailer Loake saw a 45% increase in conversion rate after they migrated to Magento Commerce 2. Let us analyze your site now.',	'After migrating to Magento Commerce 2, Shoe retailer Loake increased their conversion rate by 45%. You can find out more about your own opportunities to evolve your eCommerce strategy with a free site assessment from our expert team.  And with Magento 1 sunsetting soon, there’s no better time to evolve your eCommerce strategy. Learn more: http://bit.ly/2KThop8',	'http://bit.ly/2KThop8',	0,	1),
+(6,	4,	'2019-07-18 14:18:31',	'Free Site Assessment to Drive Conversion',	'Let our expert team evaluate your site and identify specific areas for improvements. Many customers have seen their conversions improve by as much as 35%.  Magento Commerce 2 is here, and there’s no better time to evolve your eCommerce strategy. Learn more:http://bit.ly/30EK2Pr',	'http://bit.ly/30EK2Pr',	0,	1);
 
 DROP TABLE IF EXISTS `admin_assert`;
 CREATE TABLE `admin_assert` (
@@ -96,7 +96,7 @@ CREATE TABLE `admin_user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Admin User Table';
 
 INSERT INTO `admin_user` (`user_id`, `firstname`, `lastname`, `email`, `username`, `password`, `created`, `modified`, `logdate`, `lognum`, `reload_acl_flag`, `is_active`, `extra`, `rp_token`, `rp_token_created_at`) VALUES
-(1,	'deepak',	'singh',	'deepaksro10@gmail.com',	'deepak',	'80adc69202f28d09de7e6dfc04c6e8e6:gED9vcq1BpVZIF0eCx1MJYkiMJJw51iv',	'2019-07-25 07:30:17',	'2019-07-25 07:30:17',	'2019-07-25 07:30:44',	1,	0,	1,	'b:0;',	NULL,	NULL);
+(1,	'deepak',	'singh',	'deepaksro10@gmail.com',	'deepak',	'80adc69202f28d09de7e6dfc04c6e8e6:gED9vcq1BpVZIF0eCx1MJYkiMJJw51iv',	'2019-07-25 07:30:17',	'2019-07-25 07:30:17',	'2019-07-25 07:45:51',	2,	0,	1,	'b:0;',	NULL,	NULL);
 
 DROP TABLE IF EXISTS `api2_acl_attribute`;
 CREATE TABLE `api2_acl_attribute` (
@@ -652,6 +652,55 @@ INSERT INTO `catalog_category_entity_varchar` (`value_id`, `entity_type_id`, `at
 (6,	3,	51,	1,	2,	'PRODUCTS'),
 (7,	3,	45,	1,	2,	'default-category');
 
+DROP TABLE IF EXISTS `catalog_category_flat_store_1`;
+CREATE TABLE `catalog_category_flat_store_1` (
+  `entity_id` int(10) unsigned NOT NULL COMMENT 'entity_id',
+  `parent_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'parent_id',
+  `created_at` timestamp NULL DEFAULT NULL COMMENT 'created_at',
+  `updated_at` timestamp NULL DEFAULT NULL COMMENT 'updated_at',
+  `path` varchar(255) NOT NULL DEFAULT '' COMMENT 'path',
+  `position` int(11) NOT NULL COMMENT 'position',
+  `level` int(11) NOT NULL DEFAULT '0' COMMENT 'level',
+  `children_count` int(11) NOT NULL COMMENT 'children_count',
+  `store_id` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Store Id',
+  `all_children` text COMMENT 'All Children',
+  `available_sort_by` text COMMENT 'Available Product Listing Sort By',
+  `children` text COMMENT 'Children',
+  `custom_apply_to_products` int(11) DEFAULT NULL COMMENT 'Apply To Products',
+  `custom_design` varchar(255) DEFAULT NULL COMMENT 'Custom Design',
+  `custom_design_from` datetime DEFAULT NULL COMMENT 'Active From',
+  `custom_design_to` datetime DEFAULT NULL COMMENT 'Active To',
+  `custom_layout_update` text COMMENT 'Custom Layout Update',
+  `custom_use_parent_settings` int(11) DEFAULT NULL COMMENT 'Use Parent Category Settings',
+  `default_sort_by` varchar(255) DEFAULT NULL COMMENT 'Default Product Listing Sort By',
+  `description` text COMMENT 'Description',
+  `display_mode` varchar(255) DEFAULT NULL COMMENT 'Display Mode',
+  `filter_price_range` decimal(12,4) DEFAULT NULL COMMENT 'Layered Navigation Price Step',
+  `image` varchar(255) DEFAULT NULL COMMENT 'Image',
+  `include_in_menu` int(11) DEFAULT NULL COMMENT 'Include in Navigation Menu',
+  `is_active` int(11) DEFAULT NULL COMMENT 'Is Active',
+  `is_anchor` int(11) DEFAULT NULL COMMENT 'Is Anchor',
+  `landing_page` int(11) DEFAULT NULL COMMENT 'CMS Block',
+  `meta_description` text COMMENT 'Meta Description',
+  `meta_keywords` text COMMENT 'Meta Keywords',
+  `meta_title` varchar(255) DEFAULT NULL COMMENT 'Page Title',
+  `name` varchar(255) DEFAULT NULL COMMENT 'Name',
+  `page_layout` varchar(255) DEFAULT NULL COMMENT 'Page Layout',
+  `path_in_store` text COMMENT 'Path In Store',
+  `url_key` varchar(255) DEFAULT NULL COMMENT 'URL Key',
+  `url_path` varchar(255) DEFAULT NULL COMMENT 'Url Path',
+  PRIMARY KEY (`entity_id`),
+  KEY `IDX_CATALOG_CATEGORY_FLAT_STORE_1_STORE_ID` (`store_id`),
+  KEY `IDX_CATALOG_CATEGORY_FLAT_STORE_1_PATH` (`path`),
+  KEY `IDX_CATALOG_CATEGORY_FLAT_STORE_1_LEVEL` (`level`),
+  CONSTRAINT `FK_CATALOG_CATEGORY_FLAT_STORE_1_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_CTGR_FLAT_STORE_1_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Flat (Store 1)';
+
+INSERT INTO `catalog_category_flat_store_1` (`entity_id`, `parent_id`, `created_at`, `updated_at`, `path`, `position`, `level`, `children_count`, `store_id`, `all_children`, `available_sort_by`, `children`, `custom_apply_to_products`, `custom_design`, `custom_design_from`, `custom_design_to`, `custom_layout_update`, `custom_use_parent_settings`, `default_sort_by`, `description`, `display_mode`, `filter_price_range`, `image`, `include_in_menu`, `is_active`, `is_anchor`, `landing_page`, `meta_description`, `meta_keywords`, `meta_title`, `name`, `page_layout`, `path_in_store`, `url_key`, `url_path`) VALUES
+(1,	0,	'2019-07-25 07:29:04',	'2019-07-25 07:29:04',	'1',	0,	0,	1,	1,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	1,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'Root Catalog',	NULL,	NULL,	'root-catalog',	NULL),
+(2,	1,	'2019-07-25 07:29:05',	'2019-07-25 07:29:05',	'1/2',	1,	1,	0,	1,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'PRODUCTS',	NULL,	NULL,	1,	1,	NULL,	NULL,	NULL,	NULL,	NULL,	'Default Category',	NULL,	NULL,	'default-category',	NULL);
+
 DROP TABLE IF EXISTS `catalog_category_product`;
 CREATE TABLE `catalog_category_product` (
   `category_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Category ID',
@@ -1160,6 +1209,60 @@ CREATE TABLE `catalog_product_entity_varchar` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table';
 
 
+DROP TABLE IF EXISTS `catalog_product_flat_1`;
+CREATE TABLE `catalog_product_flat_1` (
+  `entity_id` int(10) unsigned NOT NULL COMMENT 'entity_id',
+  `attribute_set_id` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'attribute_set_id',
+  `type_id` varchar(32) NOT NULL DEFAULT 'simple' COMMENT 'type_id',
+  `cost` decimal(12,4) DEFAULT NULL COMMENT 'cost',
+  `created_at` timestamp NULL DEFAULT NULL COMMENT 'created_at',
+  `gift_message_available` smallint(6) DEFAULT NULL COMMENT 'gift_message_available',
+  `has_options` smallint(6) NOT NULL DEFAULT '0' COMMENT 'has_options',
+  `image_label` varchar(255) DEFAULT NULL COMMENT 'image_label',
+  `is_recurring` smallint(6) DEFAULT NULL COMMENT 'is_recurring',
+  `links_exist` int(11) DEFAULT NULL COMMENT 'links_exist',
+  `links_purchased_separately` int(11) DEFAULT NULL COMMENT 'links_purchased_separately',
+  `links_title` varchar(255) DEFAULT NULL COMMENT 'links_title',
+  `msrp` decimal(12,4) DEFAULT NULL COMMENT 'msrp',
+  `msrp_display_actual_price_type` varchar(255) DEFAULT NULL COMMENT 'msrp_display_actual_price_type',
+  `msrp_enabled` smallint(6) DEFAULT NULL COMMENT 'msrp_enabled',
+  `name` varchar(255) DEFAULT NULL COMMENT 'name',
+  `news_from_date` datetime DEFAULT NULL COMMENT 'news_from_date',
+  `news_to_date` datetime DEFAULT NULL COMMENT 'news_to_date',
+  `price` decimal(12,4) DEFAULT NULL COMMENT 'price',
+  `price_type` int(11) DEFAULT NULL COMMENT 'price_type',
+  `price_view` int(11) DEFAULT NULL COMMENT 'price_view',
+  `recurring_profile` text COMMENT 'recurring_profile',
+  `required_options` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'required_options',
+  `shipment_type` int(11) DEFAULT NULL COMMENT 'shipment_type',
+  `short_description` text COMMENT 'short_description',
+  `sku` varchar(64) DEFAULT NULL COMMENT 'sku',
+  `sku_type` int(11) DEFAULT NULL COMMENT 'sku_type',
+  `small_image` varchar(255) DEFAULT NULL COMMENT 'small_image',
+  `small_image_label` varchar(255) DEFAULT NULL COMMENT 'small_image_label',
+  `special_from_date` datetime DEFAULT NULL COMMENT 'special_from_date',
+  `special_price` decimal(12,4) DEFAULT NULL COMMENT 'special_price',
+  `special_to_date` datetime DEFAULT NULL COMMENT 'special_to_date',
+  `status` smallint(5) unsigned DEFAULT NULL COMMENT 'status',
+  `tax_class_id` int(10) unsigned DEFAULT NULL COMMENT 'tax_class_id',
+  `thumbnail` varchar(255) DEFAULT NULL COMMENT 'thumbnail',
+  `thumbnail_label` varchar(255) DEFAULT NULL COMMENT 'thumbnail_label',
+  `updated_at` timestamp NULL DEFAULT NULL COMMENT 'updated_at',
+  `url_key` varchar(255) DEFAULT NULL COMMENT 'url_key',
+  `url_path` varchar(255) DEFAULT NULL COMMENT 'url_path',
+  `visibility` smallint(5) unsigned DEFAULT NULL COMMENT 'visibility',
+  `weight` decimal(12,4) DEFAULT NULL COMMENT 'weight',
+  `weight_type` int(11) DEFAULT NULL COMMENT 'weight_type',
+  PRIMARY KEY (`entity_id`),
+  KEY `IDX_CATALOG_PRODUCT_FLAT_1_TYPE_ID` (`type_id`),
+  KEY `IDX_CATALOG_PRODUCT_FLAT_1_ATTRIBUTE_SET_ID` (`attribute_set_id`),
+  KEY `IDX_CATALOG_PRODUCT_FLAT_1_NAME` (`name`),
+  KEY `IDX_CATALOG_PRODUCT_FLAT_1_PRICE` (`price`),
+  KEY `IDX_CATALOG_PRODUCT_FLAT_1_STATUS` (`status`),
+  CONSTRAINT `FK_CAT_PRD_FLAT_1_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Flat (Store 1)';
+
+
 DROP TABLE IF EXISTS `catalog_product_index_eav`;
 CREATE TABLE `catalog_product_index_eav` (
   `entity_id` int(10) unsigned NOT NULL COMMENT 'Entity ID',
@@ -1625,6 +1728,8 @@ CREATE TABLE `catalog_product_index_website` (
   CONSTRAINT `FK_CAT_PRD_IDX_WS_WS_ID_CORE_WS_WS_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Website Index Table';
 
+INSERT INTO `catalog_product_index_website` (`website_id`, `website_date`, `rate`) VALUES
+(1,	'2019-07-25',	1);
 
 DROP TABLE IF EXISTS `catalog_product_link`;
 CREATE TABLE `catalog_product_link` (
@@ -2064,7 +2169,25 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (13,	'default',	0,	'general/locale/timezone',	'America/Los_Angeles'),
 (14,	'default',	0,	'currency/options/base',	'USD'),
 (15,	'default',	0,	'currency/options/default',	'USD'),
-(16,	'default',	0,	'currency/options/allow',	'USD');
+(16,	'default',	0,	'currency/options/allow',	'USD'),
+(17,	'default',	0,	'admin/emails/forgot_email_template',	'admin_emails_forgot_email_template'),
+(18,	'default',	0,	'admin/emails/forgot_email_identity',	'general'),
+(19,	'default',	0,	'admin/emails/password_reset_link_expiration_period',	'2'),
+(20,	'default',	0,	'admin/startup/page',	'dashboard'),
+(21,	'default',	0,	'admin/url/use_custom',	'0'),
+(22,	'default',	0,	'admin/url/use_custom_path',	'0'),
+(23,	'default',	0,	'admin/security/use_form_key',	'1'),
+(24,	'default',	0,	'admin/security/use_case_sensitive_login',	'0'),
+(25,	'default',	0,	'admin/security/session_cookie_lifetime',	NULL),
+(26,	'default',	0,	'admin/security/domain_policy_backend',	'2'),
+(27,	'default',	0,	'admin/security/validate_formkey_checkout',	'1'),
+(28,	'default',	0,	'admin/security/domain_policy_frontend',	'2'),
+(29,	'default',	0,	'admin/security/extensions_compatibility_mode',	'1'),
+(30,	'default',	0,	'admin/security/crate_admin_user_notification',	'0'),
+(31,	'default',	0,	'admin/security/forgot_password_flow_secure',	'1'),
+(32,	'default',	0,	'admin/security/forgot_password_ip_times',	'5'),
+(33,	'default',	0,	'admin/security/forgot_password_email_times',	'5'),
+(34,	'default',	0,	'admin/captcha/enable',	'0');
 
 DROP TABLE IF EXISTS `core_email_queue`;
 CREATE TABLE `core_email_queue` (
@@ -2130,7 +2253,8 @@ CREATE TABLE `core_flag` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Flag';
 
 INSERT INTO `core_flag` (`flag_id`, `flag_code`, `state`, `flag_data`, `last_update`) VALUES
-(1,	'admin_notification_survey',	0,	'a:1:{s:13:\"survey_viewed\";b:1;}',	'2019-07-25 07:30:17');
+(1,	'admin_notification_survey',	0,	'a:1:{s:13:\"survey_viewed\";b:1;}',	'2019-07-25 07:30:17'),
+(2,	'catalog_product_flat',	0,	'a:2:{s:8:\"is_built\";b:1;s:16:\"is_store_built_1\";b:1;}',	'2019-07-25 07:44:27');
 
 DROP TABLE IF EXISTS `core_layout_link`;
 CREATE TABLE `core_layout_link` (
@@ -5177,15 +5301,15 @@ CREATE TABLE `index_process` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Index Process';
 
 INSERT INTO `index_process` (`process_id`, `indexer_code`, `status`, `started_at`, `ended_at`, `mode`) VALUES
-(1,	'catalog_product_attribute',	'require_reindex',	NULL,	NULL,	'real_time'),
-(2,	'catalog_product_price',	'require_reindex',	NULL,	NULL,	'real_time'),
-(3,	'catalog_url',	'require_reindex',	'2019-07-25 07:29:05',	'2019-07-25 07:29:05',	'real_time'),
-(4,	'catalog_product_flat',	'require_reindex',	NULL,	NULL,	'real_time'),
-(5,	'catalog_category_flat',	'require_reindex',	NULL,	NULL,	'real_time'),
-(6,	'catalog_category_product',	'require_reindex',	'2019-07-25 07:29:05',	'2019-07-25 07:29:05',	'real_time'),
-(7,	'catalogsearch_fulltext',	'require_reindex',	'2019-07-25 07:29:05',	'2019-07-25 07:29:05',	'real_time'),
-(8,	'cataloginventory_stock',	'require_reindex',	NULL,	NULL,	'real_time'),
-(9,	'tag_summary',	'require_reindex',	NULL,	NULL,	'real_time');
+(1,	'catalog_product_attribute',	'pending',	'2019-07-25 07:44:26',	'2019-07-25 07:44:26',	'real_time'),
+(2,	'catalog_product_price',	'pending',	'2019-07-25 07:44:26',	'2019-07-25 07:44:27',	'real_time'),
+(3,	'catalog_url',	'pending',	'2019-07-25 07:44:27',	'2019-07-25 07:44:27',	'real_time'),
+(4,	'catalog_product_flat',	'pending',	'2019-07-25 07:44:27',	'2019-07-25 07:44:28',	'real_time'),
+(5,	'catalog_category_flat',	'pending',	'2019-07-25 07:44:28',	'2019-07-25 07:44:28',	'real_time'),
+(6,	'catalog_category_product',	'pending',	'2019-07-25 07:44:28',	'2019-07-25 07:44:28',	'real_time'),
+(7,	'catalogsearch_fulltext',	'pending',	'2019-07-25 07:44:28',	'2019-07-25 07:44:28',	'real_time'),
+(8,	'cataloginventory_stock',	'pending',	'2019-07-25 07:44:26',	'2019-07-25 07:44:26',	'real_time'),
+(9,	'tag_summary',	'pending',	'2019-07-25 07:44:28',	'2019-07-25 07:44:28',	'real_time');
 
 DROP TABLE IF EXISTS `index_process_event`;
 CREATE TABLE `index_process_event` (
@@ -8060,4 +8184,4 @@ CREATE TABLE `wishlist_item_option` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Wishlist Item Option Table';
 
 
--- 2019-07-25 13:01:42
+-- 2019-07-25 13:16:44
